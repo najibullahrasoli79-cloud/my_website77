@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کمپنی اطلس | Company Atlas</title>
+    <style>
+               img {
+    width: 500px !important;  /* اندازه تصویر به 500 پیکسل */
+    height: 500px !important; /* ارتفاع تصویر به 500 پیکسل */
+    border-radius: 2% !important; /* دایروی کردن تصویر */
+    object-fit: cover !important; /* اطمینان از پوشش کامل تصویر */
+}
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav button {
+            background-color: #ffffff;
+            border: 1px solid #007BFF;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        nav button:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        /* Home Section */
+        .home {
+            background-color: #007BFF;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        /* Page Sections */
+        .page-content {
+            background-color: #ffffff;
+            padding: 50px;
+            margin: 20px;
+            border-radius: 50px;
+        }
+
+        .page-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Language Change Styles */
+        [data-language="fa"] {
+            direction: rtl;
+        }
+
+        [data-language="ps"] {
+            direction: rtl;
+        }
+
+        /* Title Style */
+        h2 {
+            color: #007BFF;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul>
+                <li><button onclick="changeLanguage('en')">English</button></li>
+                <li><button onclick="changeLanguage('fa')">فارسی</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Home Page -->
+        <section class="home" id="home">
+            <h1 id="site-title">Company Atlas | کمپنی اطلس</h1>
+            <img src="images/hom.png" alt="Home Image" />
+            <p id="intro-text">Welcome to our company website. We offer high-quality services.</p>
+            <img src="path/to/home-image.jpg" alt="Home Image" />
+        </section>
+
+        <!-- Page 1 -->
+        <section id="page-1" class="page-content">
+            <h2>Our Services</h2>
+        <h3>1 مهندسی و ساخت ساختمان سازی</h3>
+      <h3>2 ساخت اپلیکیشن‌ها، وب‌سایت‌ها، و سیستم‌های دیتابیسی</h3>
+        <h3>3خدمات لوجستکی</h3>
+            <p >خدمات مهندسی ساختمانی ما در طراحی، برنامه ریزی و ساخت ساختمان های مسکونی و تجاری ارائه می دهد. ما‌های مدرن را با تکنیک‌های سنتی ساخت و سازها می‌کنیم تا سازه‌هایی کارآمد و بادوام فناوری‌هایی را که نیازهای شما را ارزیابی کنید، بسازید. چه ساختمان های بلندمرتبه باشد و چه خانه های مسکونی، ما در هر پروژه ای با چه کیفیتی مطمئن هستیم.1</p>
+           <img src="images/h.jpg" alt="Home Image" />
+           <p>2خدمات ساخت اپلکشن ها ما در طراحی و ساخت وب‌سایت‌ها و اپلیکیشن‌های موبایل نوآورانه و کاربرپسند تخصص داریم. تیم ما را از فناوری‌های پیشرفته برای طراحی وب‌سایت‌های پاسخگو و اپلیکیشن‌های موبایل کارآمد استفاده می‌کند که نیاز به کسب و کار شما را داشته باشد. چه به یک پلتفرم تجارت الکترونیک نیاز دارید و چه اپلیکیشن موبایل برای کسب و کار خود، ما راهکارهایی را ارائه می کنیم که تجربه را بهبود بخشد و رشد را تسریع می کند.</p>
+            <img src="images/u.png" alt="Home Image" />
+            <p>خدمات لوجستیکی ما راه حل های جامع برای مدیریت جریان کالاها و مواد ارائه می دهد. ما در انبارداری، حمل‌ونقل و مدیریت موجودی تخصص داریم و تضمین می‌کنیم که محصولات شما به موقع و در شرایط عالی تحویل داده شوند. از بهینه‌سازی سیستم‌های تحویل کارآمد، ما راه‌حل‌های لوجستیکی ابتدا تا انتها برای خرید نیازهای کسب‌وکار شما می‌دهیم.</p>
+             <img src="images/t.jpg" alt="Home Image" />
+            <img src="path/to/service-image.jpg" alt="Our Services" />
+        </section>
+
+        <!-- Page 2 -->
+        <section id="page-2" class="page-content">
+            <h2>Portfolio</h2>
+           
+            <li>نقشه و ساخت شفاخانه کندوز</li>
+            
+            <li>ساخت مکتب و نقشه مکتب ده صنفی راباط</li>
+            <li> سیستم ها تبلعاتی و مدریتی مرکز اموزشی ستاره در نیلی</li>
+            <img src="path/to/portfolio-image.jpg" alt="Portfolio" />
+        </section>
+
+        <!-- Page 3 -->
+        <section id="page-3" class="page-content">
+            <h2>Work Experience</h2>
+            <p> هفت سال تجربه در پروژه های مختلف، در شرکت خود در زمینه مهندسی ساختمانی، توسعه اپلیکیشن ها و وب سایت ها، و پروژه های لوجستیکی قدم برداشته است. در این سال‌ها، ما نه تنها با دقت و حرفه‌ای به طراحی و ساختن سازه‌ها پرداخته‌ایم، بلکه در توسعه نرم‌افزارهایی که نیازهای روزمره را می‌سازند، نوآوری کرده‌اند. هر پروژه، یک سفر پرهی و پرچالش، با عشق و تجربه کامل به اجرا درآمده است. این مسیر، که با همدلی و همکاری تیمی همراه بوده است، به ما اجازه می دهیم تا در دنیای پیچیده و همیشه در حال تغییر این حوزه ها، موفقیت های بزرگی کسب کنیم.</p>
+            <img src="path/to/experience-image.jpg" alt="Work Experience" />
+        </section>
+
+        <!-- Page 4 -->
+        <section id="page-4" class="page-content">
+            <h2>Terms & Conditions</h2>
+            
+        <h3>1. سفارش‌ها</h3>
+        <p>تمام سفارش‌ها پیش از قرارداد رسمی پذیرفته می‌شوند. پس از امضای قرارداد، هیچ گونه تغییر در پروژه انجام نخواهد شد.</p>
+        <h3>2. شرایط پرداخت</h3>
+        <p>برای پروژه‌های ساختمانی، پرداخت‌ها بر اساس توافق با مشتری انجام می‌شود.</p>
+        <p>برای پروژه‌های برنامه‌نویسی: 20٪ از مبلغ پروژه به عنوان پیش‌پرداخت در ابتدای کار دریافت می‌شود و باقی‌مانده پس از تکمیل پروژه به صورت مرحله‌ای پرداخت می‌گردد.</p>
+        <h3>3. پروژه‌های لوجستیکی</h3>
+        <p>پروژه‌های لوجستیکی بر اساس توافق مشتری در زمان و مکان تعیین شده انجام می‌شوند.</p>
+        <h3>4. تغییرات در پروژه‌ها</h3>
+        <p>هر گونه تغییرات در پروژه‌ها پس از شروع کار تنها در صورت توافق کتبی با مشتری امکان‌پذیر است و هزینه‌های اضافی ممکن است شامل شود.</p>
+    </div>
+            <img src="path/to/terms-image.jpg" alt="Terms & Conditions" />
+        </section>
+
+        <!-- Page 5 -->
+        <section id="page-5" class="page-content">
+            <h2>About Us</h2>
+            <p><strong>الحاج انجینر ابوذر رفعی</strong> - مالک کمپنی اطلس</p>
+            <img src="images/l.jpg" alt="Home Image" />
+        <p><strong>انجینر نجیب الله رسولی</strong> -معاوین کمپنی اطلس</p>
+        <img src="images/m.png" alt="Home Image" />
+            <img src="path/to/about-image.png" alt="About Us" />
+        </section>
+
+        <!-- Page 6 -->
+        <section id="page-6" class="page-content">
+            <h2>Contact</h2>
+          <p>نمبر تماس: 0778084302</p>
+        <p><a href="https://wa.me/93778084302" class="contact-info">لینک واتساپ</a></p>
+        <p>نمبر تماس دوم: 0706199147</p>
+        <p><a href="https://wa.me/+93706199147" class="contact-info">لینک واتساپ</a></p>
+            <img src="path/to/contact-image.jpg" alt="Contact" />
+        </section>
+
+        <!-- Page 7 -->
+        <section id="page-7" class="page-content">
+            <h2>Privacy Policy</h2>
+            <p id="page-7-text">Our privacy policy...</p>
+            <img src="path/to/privacy-image.jpg" alt="Privacy Policy" />
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Company Atlas. All rights reserved.</p>
+    </footer>
+
+    <script>
+        let currentLanguage = 'en';
+
+        const content = {
+            en: {
+                title: 'Company Atlas',
+                intro: 'Welcome to our company website. We offer high-quality services.',
+                page1: 'Our Services',
+                page1Text: 'Details about the services we offer...',
+                page2: 'Portfolio',
+                page2Text: 'Here you can see our past projects...',
+                page3: 'Work Experience',
+                page3Text: 'Experience details...',
+                page4: 'Terms & Conditions',
+                page4Text: 'Terms and conditions for our services...',
+                page5: 'About Us',
+                page5Text: 'About the company and our mission...',
+                page6: 'Contact',
+                page6Text: 'How to contact us...',
+                page7: 'Privacy Policy',
+                page7Text: 'Our privacy policy...'
+            },
+            fa: {
+                title: 'کمپنی اطلس',
+                intro: 'به وبسایت شرکت ما خوش آمدید. ما خدمات با کیفیت بالا ارائه می‌دهیم.',
+                page1: 'خدمات ما',
+                page1Text: 'جزئیات خدماتی که ارائه می‌دهیم...',
+                page2: 'نمونه کارها',
+                page2Text: 'اینجا می‌توانید پروژه‌های گذشته ما را ببینید...',
+                page3: 'تجربه کاری',
+                page3Text: 'جزئیات تجربه...',
+                page4: 'شرایط و ضوابط',
+                page4Text: 'شرایط و ضوابط خدمات ما...',
+                page5: 'درباره ما',
+                page5Text: 'درباره شرکت و ماموریت ما...',
+                page6: 'تماس با ما',
+                page6Text: 'چگونه با ما تماس بگیرید...',
+                page7: 'سیاست حفظ حریم خصوصی',
+                page7Text: 'سیاست حفظ حریم خصوصی ما...'
+            }
+        };
+
+        function changeLanguage(language) {
+            currentLanguage = language;
+            document.getElementById('site-title').textContent = content[language].title;
+            document.getElementById('intro-text').textContent = content[language].intro;
+
+            document.getElementById('page-1').querySelector('h2').textContent = content[language].page1;
+            document.getElementById('page-1').querySelector('p').textContent = content[language].page1Text;
+
+            document.getElementById('page-2').querySelector('h2').textContent = content[language].page2;
+            document.getElementById('page-2').querySelector('p').textContent = content[language].page2Text;
+
+            document.getElementById('page-3').querySelector('h2').textContent = content[language].page3;
+            document.getElementById('page-3').querySelector('p').textContent = content[language].page3Text;
+
+            document.getElementById('page-4').querySelector('h2').textContent = content[language].page4;
+            document.getElementById('page-4').querySelector('p').textContent = content[language].page4Text;
+
+            document.getElementById('page-5').querySelector('h2').textContent = content[language].page5;
+            document.getElementById('page-5').querySelector('p').textContent = content[language].page5Text;
+
+            document.getElementById('page-6').querySelector('h2').textContent = content[language].page6;
+            document.getElementById('page-6').querySelector('p').textContent = content[language].page6Text;
+
+            document
